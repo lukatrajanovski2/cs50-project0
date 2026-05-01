@@ -1,0 +1,135 @@
+input[type="text"] {
+    width:500px;
+    height:30px;
+    border-radius:50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #dfe1e5;
+}
+input[type="submit"]{
+    font-size:20px;
+    width:auto;
+    height:auto;
+    padding:5px;
+    border-radius:50px;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color:rgb(221, 241, 241);
+    margin-top:8px;
+    text-align:center;
+    padding-left:10px;
+    padding-right:10px;
+}
+.input{
+    text-align:center;
+    margin-top:40px;
+}
+.google{
+    font-size:80px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    margin-top:150px;
+    font-weight:550;
+    letter-spacing:-10px;
+    position:relative;;
+    .g1{
+        color:rgb(15, 151, 196)
+    }
+    .o1{
+        color:red
+    }
+    .o2{
+        color:rgba(225, 225, 15, 0.962)
+    }
+    .g2{
+        color:rgb(15, 151, 196)
+    }
+    .l{
+        color:rgb(27, 156, 27)
+    }
+    .e{
+        color:red
+    }
+}
+.image-search{
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:11px;
+    text-align:left;
+    margin-top:10px;
+    position:absolute;
+    right:40%;
+    bottom: -4px;
+    letter-spacing:1px;
+}
+.index a, .index{
+    color:black !important;
+    text-align:right;
+    font-size:20px;
+    text-decoration:none !important;
+}
+#container-advanced{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:100px;
+}
+    .form-row{
+        display:flex;
+        font-size:20px;
+        padding-bottom:15px;
+        margin-left:50px;
+
+    }
+    input[type="text"]{
+        width:500px;
+        border-radius:0%;
+        
+    }
+#special{
+    font-size:25px;
+    margin-top:12px;
+    margin-left:10px;
+    position:none;
+    text-align:left;
+    letter-spacing:-3px;
+}
+#a-search{
+    font-size:30px;
+    margin-top:35px;
+    margin-left:29px;
+    text-align:left;
+    color:rgb(255, 80, 80)
+}
+#index-spe{
+    letter-spacing:2px;
+    margin-top:1px;
+
+}
+#g,#t{
+    position:absolute;
+    text-align:right;
+    right:20px;
+    height:auto;
+    width:auto;
+    cursor:pointer;
+    z-index: 9999 !important;
+}
+#g {
+        top: 10px; 
+}
+
+#t {
+        top: 35px; 
+}
+
+
+.btn-advanced{
+    background-color: #4d90fe !important;
+    color:white;
+
+}
+label {
+    display: inline-block;
+    width: 180px;      
+    margin-right: 20px;  
+    font-size: 23px;
+    text-align: left;
+}
